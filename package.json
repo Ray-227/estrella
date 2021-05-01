@@ -1,0 +1,22 @@
+{
+  "name": "estrella",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray-227/estrella.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ray-227/estrella/issues"
+  },
+  "homepage": "https://github.com/Ray-227/estrella#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
