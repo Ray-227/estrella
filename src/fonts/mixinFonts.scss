@@ -1,0 +1,17 @@
+// @include MontserratNormal(24px, 30px); // Использование миксина
+
+@mixin MontserratNormal($font-size, $line-height: auto) {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin MontserratBold($font-size, $line-height: auto) {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $font-size;
+  line-height: $line-height;
+}

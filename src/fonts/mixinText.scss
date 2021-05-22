@@ -1,0 +1,37 @@
+@import "@/fonts/mixinFonts.scss";
+@import "@/styles/varColors.scss";
+
+@mixin h1 {
+  @include MontserratBold(5rem, 5rem);
+  color: $text;
+}
+
+@mixin h2 {
+  @include MontserratBold(4rem, 4rem);
+  color: $text;
+}
+
+@mixin h3 {
+  @include MontserratBold(3rem, 3rem);
+  color: $text;
+}
+
+@mixin h4 {
+  @include MontserratBold(2rem, 2rem);
+  color: $text;
+}
+
+@mixin h5 {
+  @include MontserratBold(1.5rem, 1.5rem);
+  color: $text;
+}
+
+@mixin body {
+  @include MontserratBold(1rem, 1rem);
+  color: $text;
+}
+
+@mixin smallBody {
+  @include MontserratBold(0.8rem, 0.8rem);
+  color: $text;
+}
