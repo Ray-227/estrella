@@ -3,6 +3,8 @@ import './index.scss';
 
 import TopMenu from '@/components/Blocks/TopMenu/index.jsx';
 import Lk from '@/components/Blocks/Lk/index.jsx';
+import BottomFixedMenu from '@/components/Blocks/BottomFixedMenu/index.jsx';
+
 
 export default class App extends React.Component {
     render() {
@@ -10,6 +12,7 @@ export default class App extends React.Component {
         <Fragment>
             <TopMenu></TopMenu>
             <Lk></Lk>
+            <BottomFixedMenu></BottomFixedMenu>
         </Fragment>
       )
     }

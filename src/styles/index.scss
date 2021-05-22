@@ -1,7 +1,12 @@
 @import "~normalize.css";
 @import "bootstrap-grid.css";
 @import "/fonts/fonts.scss";
+@import "/styles/varColors.scss";
 
 html {
   font-size: 18px;
+}
+
+body {
+  background-color: $bg;
 }
