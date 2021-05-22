@@ -1,0 +1,70 @@
+@import "@/styles/varColors.scss";
+@import "@/styles/varStyles.scss";
+@import "@/fonts/mixinText.scss";
+
+.top-menu {
+  background-color: $sea;
+  margin: 0 -15px;
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 0 0 $borderRadius $borderRadius;
+
+  position: relative;
+}
+
+
+.top-menu__logo {
+  width: 82px;
+}
+
+.top-menu__logo-img {
+  object-fit: contain;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.top-menu__hbg {
+  user-select: none;
+  cursor: pointer;
+}
+
+.top-menu__hbg-icon {
+  color: $white;
+  font-size: 2rem;
+}
+
+
+.top-menu__hbg-menu {
+  position: absolute;
+  top: 90%;
+  right: 0;
+  background-color: $sea;
+  width: 100%;
+  height: 80vh;
+  justify-content: flex-end;
+  border-radius: 0 0 30% 85%;
+
+  display: none;
+}
+
+.top-menu__hbg-menu-ul {
+  list-style: none;
+  padding: 0 15px 0 0;
+  margin: 0;
+}
+
+.top-menu__hbg-menu-li:not(:first-child) {
+  margin-top: 10px;
+}
+
+.top-menu__hbg-menu-link {
+  @include body;
+  color: $white !important;
+  text-decoration: none;
+}

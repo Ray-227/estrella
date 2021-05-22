@@ -27,11 +27,11 @@
 }
 
 @mixin body {
-  @include MontserratBold(1rem, 1rem);
+  @include MontserratNormal(1rem, 1rem);
   color: $text;
 }
 
 @mixin smallBody {
-  @include MontserratBold(0.8rem, 0.8rem);
+  @include MontserratNormal(0.8rem, 0.8rem);
   color: $text;
 }
