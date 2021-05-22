@@ -1,0 +1,81 @@
+@import "@/styles/varColors.scss";
+@import "@/styles/varStyles.scss";
+@import "@/fonts/mixinText.scss";
+
+
+.user-info {
+  padding: 10px 20px;
+
+  border-radius: 0 0 $borderRadius $borderRadius;
+}
+
+.user-info__top-name {
+  @include body;
+}
+
+.user-info__top {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+  
+}
+.user-info__top-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info__line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.user-info__bottom {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 15px;
+
+}
+.user-info__bottom-bonus {
+  @include body;
+  margin: auto 0;
+}
+.user-info__bottom-button {
+  padding: 12px 20px;
+  border-style: none;
+  border-radius: 16px;
+  background-color: $sea;
+  color: $white;
+  opacity: 60%;
+}
+
+.my-preferences {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+
+.my-preferences__title {
+  @include body;
+}
+
+.my-preferences__icon {
+  margin-left: auto;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+.feedback__title {
+  @include body;
+}
+.feedback__icon {
+  margin-left: auto;
+}
